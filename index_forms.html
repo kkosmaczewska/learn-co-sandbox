@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMS!</title>
+    <style>
+      label { color: blue; }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1 style="color:green">Playing with forms</h1>
+    <form>
+      <div id="first">
+        <label class="mylabel" for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Name, Last Name">
+      </div>
+      <div>
+        <label class="mylabel" for="name">Email:</label>
+        <input type="email" name="email" id="email" placeholder="hello@hi.com">
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" value="yes" name="subscribe" checked>Subscribe to newsletter?
+      </div>
+      <div>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+      </div>
+            <div>
+        <label for="reading preferences">Reading preferences:</label>
+        <select name="Reading preferences">
+  `       <option value="1">I like reading a lot</option>
+          <option value="2">I read every now and then</option>
+          <option value="3">I don't read very often</option>
+          <option value="4">I strongly dislike reading</option>
+        </select>
+      </div>
+      <div>
+        <label for="Comments">Anything else we should know</label>
+        <textarea maxlength="200" placeholder></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xZyQIaGQjtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+</html>

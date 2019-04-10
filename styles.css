@@ -1,0 +1,12 @@
+body {
+  background-color: yellow;
+}
+div {
+  background-color: orange;
+}
+#first {
+  background-color: green;
+}
+.mylabel {
+  padding: 20px;
+}
